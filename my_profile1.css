@@ -1,0 +1,140 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+header
+{
+    padding: 20px;
+    height: 50px;
+    background-color: azure;
+}
+h1{
+    color:coral;
+    font-size: 0.8cm;
+}
+nav ul
+{
+    text-align: right;
+    font-size: 0.6cm;
+}
+a:link
+{
+    text-decoration: none;
+}
+span
+{
+    padding: 20px;
+}
+section#Home
+{
+    height: 400px;
+    text-align: center;
+    padding-top: 200px;
+    background-color: rgb(173, 232, 255);
+}
+span#intro
+{
+    font-size: 0.7cm;
+    font-style: oblique;
+    font-family: Georgia;
+}
+
+img
+{
+    float: left;
+    width: 80px;
+    height: 100px;
+
+    margin-left: 10px;
+}
+#About
+{
+    height: 700px;
+    background-color: rgb(221, 248, 148);
+}
+.container
+{
+    display:flex;
+    justify-content: center;
+}
+[class$="1"]
+{
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 50px;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 10px;
+    font-size: 0.8cm;
+    font-style: italic;
+}
+#Work
+{
+    height: 700px;
+    background-color:rgb(213, 233, 255);
+}
+.wrapper
+{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: center;
+    grid-gap: 500px;
+    height: 300px;
+}
+[class^="job"]
+{
+    margin-top: 200px;
+    width: 300px;
+    background-color:#22c7b9;
+    border-radius: 10px;
+    height: 300px;
+    font-size: 0.8cm;
+}
+
+section#Skills
+{
+    background-color: aqua;
+    text-align: center;
+    height: 620px;
+    font-size: 0.7cm;
+}
+.io
+{
+    margin-top: 25px;
+}
+footer#Contact
+{
+    background-color: antiquewhite;
+    height: 625px;
+}
+footer#Contact h2
+{
+    text-align: center;
+    font-size: 1cm;
+}
+form
+{
+    margin-top: 100px;
+    text-align: center;
+}
+.for
+{font-size: 1cm;
+    margin-bottom: 50px;
+}
+.for label
+{
+    margin-right: 5px;
+}
+.for input
+{
+    width: 300px;
+    height: 30px;
+}
+button
+{
+    width: 100px;
+    height: 40px;
+}
